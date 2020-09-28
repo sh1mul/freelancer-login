@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <style type="text/css">
+
+    body{
+    	background: #f0f0f0;
+    }
+    .btn{width: 100%; display: block}
+    .frgt-pwd {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+	}
+	img{
+    width: 200px;
+    display: block;
+    margin: auto;
+	}
+	h3{
+    font-weight: 700;
+    font-size: 20px;
+	}
+	.fb-login{
+		display: block;
+		margin: auto;
+	}
+	.or{
+		position: relative;
+	}
+	.or::before {
+    content: "";
+    height: 1px;
+    background: #332f2fd6;
+    width: 43%;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    margin: 0 20px;
+	}
+	.or::after {
+    content: "";
+    height: 1px;
+    background: #332f2fd6;
+    width: 43%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0 20px;
+	}
+
+    </style>
+
+    <title>Freelancer Login</title>
+  </head>
+  <body>
+  	<div class="container p-5">
+  		<div class="row justify-content-center">
+	    	<div class="col-xl-5 shadow p-5 bg-white">
+	    		<img src="freelancer-logo.svg">
+	    		<h3 class="text-center my-4">Welcome back</h3>
+	    		<a href="#" class="btn btn-primary fb-login mb-4">Loging with facebook</a>
+	    		<p class="or my-3 text-center">OR</p>
+	    		<form class="tex-left">
+				  <div class="mb-3">
+				    <input type="email" class="form-control p-2" placeholder="Email or Username" id="exampleInputEmail1" aria-describedby="emailHelp">
+				
+				  </div>
+				  <div class="mb-3">
+				    <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+				  </div>
+				  <div class="mb-3 form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+
+				    <a class="frgt-pwd" href="">Forgot Password?</a>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Log In</button>
+				</form>
+	    	</div>
+    	</div>
+  	</div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
